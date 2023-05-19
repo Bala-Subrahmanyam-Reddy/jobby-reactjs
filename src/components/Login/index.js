@@ -70,7 +70,7 @@ class Login extends Component {
             className="input-box"
             id="username"
             type="text"
-            placeholder="Username"
+            placeholder="rahul"
             value={username}
             onChange={this.onChangeUsername}
           />
@@ -81,7 +81,7 @@ class Login extends Component {
             className="input-box"
             type="password"
             id="pass"
-            placeholder="Password"
+            placeholder="rahul@2021"
             value={password}
             onChange={this.onChangePassword}
           />
@@ -90,7 +90,7 @@ class Login extends Component {
           </button>
           {showSubmitError && <p className="error-message">*{errorMsg}</p>}
         </form>
-        <p className="vasu">Developed by @VasuReddy</p>
+        <p className="vasu">Developed by @BaluReddy</p>
       </div>
     )
   }
